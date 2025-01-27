@@ -27,6 +27,7 @@
         </executions>
         <configuration>
           <mainClass>edu.eci.cvds.patterns.archetype.App</mainClass>
+          <exec.args>${exec.args}</exec.args>
         </configuration>
       </plugin>
     </plugins>
