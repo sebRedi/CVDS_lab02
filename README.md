@@ -76,3 +76,32 @@ Los plugins se configuran en el archivo _pom.xml_ del proyecto. En este archivo,
 ### - Que es y para que sirve el repositorio central de Maven
 Es un repositorio publico que contiene una gran cantidad de bibliotecas y plugins que como desarrolladores podemos utilizar dentro de los proyectos.
 Sirve como una central de dependencias , facilitando la gestion y el acceso a las bibliotecas para el desarrollo de proyectos.
+
+
+## EJERCICIO DE LAS FIGURAS
+### CREACION DLE PROYECTO MAVEN
+
+Para la creacion del proyecto en primer lugar nos ubicamos en la ruta de ubicacion del proyecto desde
+la consola de comandos usando 
+
+```git
+  cd "ruta"
+```
+
+Posteriormente, teniendo en cuenta las indicaciones dadas,usamos la siguiente linea de codigo para generar el proyecto Maven
+
+```
+mvn archetype:generate -DgroupId=edu.eci.cvds -DartifactId=Patterns -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.0 -Dpackage=edu.eci.cvds.patterns.archetype
+```
+
+Este codigo puede entenderse de la siguiente manera:
+  - mvn : Comando Principal para ejecutar maven desde la consola
+  - archetype:generate: Se genera un nuevo proyecto usando un arquetipo
+  - -DgroupId= edu.eci.cvds: Se define el groupId del proyecto
+  - -DartifactId=Patterns: Se define el nombre del proyecto que se esta creando 
+  - -DarchetypeGroupId=org.apache.maven.archetypes : Se esta especificando el grupo del arquetipo que se va a utilizar
+  - -DarchetypeArtifactId=maven-archetype-quickstart: Se especifica el ArtifactId, es decir el nombre del arquetipo utilizado
+  - -DarchetypeVersion=1.0: Se define la version del arquetipo
+  - -Dpackage=edu.eci.cvds.patterns.archetype: Define el paquete base de las clases generadas
+  - -DinteractiveMode=false: Se esta indicando a Maven que utilice paquetes predeterminados.
+
