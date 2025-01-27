@@ -11,6 +11,29 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
   </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.5.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>edu.eci.cvds.patterns.archetype.App</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
