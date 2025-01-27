@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: edu.eci.cvds.patterns.archetype.AppTest
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in edu.eci.cvds.patterns.archetype.AppTest
-=======
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in edu.eci.cvds.patterns.archetype.AppTest
->>>>>>> 7bf455282555b5896d6265c066276e4ef0c69c61
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in edu.eci.cvds.patterns.archetype.AppTest
