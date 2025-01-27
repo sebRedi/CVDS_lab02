@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.eci.cvds.patterns.archetype.AppTest" time="0.014" tests="1" errors="0" skipped="0" failures="0">
+=======
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.eci.cvds.patterns.archetype.AppTest" time="0.018" tests="1" errors="0" skipped="0" failures="0">
+>>>>>>> 7bf455282555b5896d6265c066276e4ef0c69c61
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +19,11 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+<<<<<<< HEAD
     <property name="sun.java.command" value="C:\Users\sebastian.galvis-b\AppData\Local\Temp\surefire623065202086930692\surefirebooter-20250127122428065_3.jar C:\Users\sebastian.galvis-b\AppData\Local\Temp\surefire623065202086930692 2025-01-27T12-24-27_963-jvmRun1 surefire-20250127122428065_1tmp surefire_0-20250127122428065_2tmp"/>
+=======
+    <property name="sun.java.command" value="C:\Users\julian.cardenas-c\AppData\Local\Temp\surefire1682557881822421428\surefirebooter-20250127121452095_3.jar C:\Users\julian.cardenas-c\AppData\Local\Temp\surefire1682557881822421428 2025-01-27T12-14-51_952-jvmRun1 surefire-20250127121452095_1tmp surefire_0-20250127121452095_2tmp"/>
+>>>>>>> 7bf455282555b5896d6265c066276e4ef0c69c61
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\sebastian.galvis-b\Documents\Lab02\CVDS_lab02\Patterns\target\test-classes;C:\Users\sebastian.galvis-b\Documents\Lab02\CVDS_lab02\Patterns\target\classes;C:\Users\sebastian.galvis-b\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +38,11 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+<<<<<<< HEAD
     <property name="surefire.real.class.path" value="C:\Users\sebastian.galvis-b\AppData\Local\Temp\surefire623065202086930692\surefirebooter-20250127122428065_3.jar"/>
+=======
+    <property name="surefire.real.class.path" value="C:\Users\julian.cardenas-c\AppData\Local\Temp\surefire1682557881822421428\surefirebooter-20250127121452095_3.jar"/>
+>>>>>>> 7bf455282555b5896d6265c066276e4ef0c69c61
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
