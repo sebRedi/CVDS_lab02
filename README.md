@@ -76,3 +76,27 @@ Los plugins se configuran en el archivo _pom.xml_ del proyecto. En este archivo,
 ### - Que es y para que sirve el repositorio central de Maven
 Es un repositorio publico que contiene una gran cantidad de bibliotecas y plugins que como desarrolladores podemos utilizar dentro de los proyectos.
 Sirve como una central de dependencias , facilitando la gestion y el acceso a las bibliotecas para el desarrollo de proyectos.
+
+
+## Compilar y ejecutar
+
+### - ¿Cuál es el objetivo del parámetro "package"?
+Cuando se especifica la fase package en un comando de Maven, se le está indicando a Maven que ejecute todas las fases previas del ciclo de vida de construcción hasta llegar a la fase de empaquetado. El objetivo de la fase package es empaquetar el código compilado en un formato adecuado (como un archivo .jar, .war, .ear, etc.) para que el proyecto esté listo para su distribución o despliegue.
+
+El propósito principal de la fase package es:
+- Crear el artefacto del proyecto, como un archivo .jar, .war, .ear, dependiendo del tipo de proyecto.
+- Este artefacto es el archivo que generalmente se distribuye o se sube a un repositorio para su uso en otros proyectos.
+- En esta fase, Maven empaqueta el código compilado, los recursos y otros archivos necesarios en el archivo final que se usará para ejecutar la aplicación o para compartirla con otros desarrolladores.
+### - ¿Qué otros parámetros se podrían enviar al comando mvn?
+Al comando mvn pueden agregarse los parámetros:
+- Clean: Limpia los archivos generados por construcciones anteriores, eliminando el directorio target/ donde se almacenan los artefactos generados. Esto se hace para asegurar que la construcción sea completamente nueva.
+- Install:  Se usa para instalar el artefacto en el repositorio local de Maven (~/.m2/repository), de modo que pueda ser usado por otros proyectos que lo necesiten como dependencia.
+- Clean install: Esta combinación de comandos limpia el proyecto y luego lo vuelve a construir e instala en el repositorio local.
+- -D: Permite definir propiedades del sistema o parámetros de configuración específicos para la construcción. Por ejemplo, se puede especificar una versión de Java, una configuración personalizada o una propiedad del proyecto.
+- -X: Activa el modo de depuración y muestra información detallada sobre el proceso de construcción. Es útil para investigar problemas complejos.
+- -e: Maven mostrará información más detallada sobre los errores que ocurran durante el proceso de construcción, lo cual es útil para depurar problemas.
+- -P: Permite activar un perfil específico definido en el archivo pom.xml. Los perfiles en Maven se utilizan para tener configuraciones diferentes según el entorno (por ejemplo, uno para desarrollo y otro para producción).
+- -q: Activa el modo silencioso y suprime la salida de Maven, mostrando solo los mensajes importantes o errores.
+- -U: Maven actualizará las dependencias del proyecto desde los repositorios remotos, incluso si las dependencias ya están presentes en el repositorio local.
+- Site: Genera la documentación del proyecto, como el informe de las pruebas, dependencias, cobertura de código, etc., y la guarda en el directorio.
+- -DskipTests: Salta la ejecución de las pruebas durante la construcción, pero aún así empaqueta los artefactos. Es útil cuando solo se desea compilar y empaquetar sin ejecutar las pruebas unitarias.
