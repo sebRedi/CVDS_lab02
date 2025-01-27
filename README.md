@@ -1,8 +1,14 @@
-# CVDS - LAB02
-## Julian Santiago Cárdenas Cubaque
-## Sebastian Galvis Briceño
+## CVDS - LAB02
+### Julian Santiago Cárdenas Cubaque
+### Sebastian Galvis Briceño
+
 
 ## La herramienta Maven
+
+### - Cual es su mayor utilidad: 
+Es una herramienta utlizada para la creacion y desarrollo de proyectos con una definicion 
+limpia y facil de entender para todo el desarrolladores. Generando un estandar para la presentacion
+estandar y optima de proyectos
 
 ### - Fases de Maven:
 Las fases de Maven son las etapas secuenciales en el ciclo de vida de construcción de un proyecto. Maven organiza el proceso de construcción en fases, donde cada fase realiza una tarea específica y se ejecuta en un orden determinado. Las fases se agrupan en diferentes ciclos de vida, siendo el ciclo de vida predeterminado el más común y utilizado.
@@ -66,3 +72,7 @@ mvn clean install
 Los plugins en Maven son componentes que permiten ampliar y personalizar las funcionalidades del ciclo de vida de la construcción. En otras palabras, los plugins en Maven realizan tareas específicas en cada fase del ciclo de vida del proyecto, como compilar el código, ejecutar pruebas, empaquetar el artefacto, generar documentación, entre otras. Sin plugins, Maven no sería tan flexible y eficiente, ya que los plugins permiten automatizar y personalizar una gran cantidad de tareas.
 
 Los plugins se configuran en el archivo _pom.xml_ del proyecto. En este archivo, se puede definir qué plugins se quieren usar, qué fases del ciclo de vida del proyecto ejecutan y qué configuraciones específicas requieren esos plugins.
+
+### - Que es y para que sirve el repositorio central de Maven
+Es un repositorio publico que contiene una gran cantidad de bibliotecas y plugins que como desarrolladores podemos utilizar dentro de los proyectos.
+Sirve como una central de dependencias , facilitando la gestion y el acceso a las bibliotecas para el desarrollo de proyectos.
