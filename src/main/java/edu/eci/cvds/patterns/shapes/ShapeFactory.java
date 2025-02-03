@@ -1,4 +1,4 @@
-package edu.eci.cvds.patterns.archetype.shapes;
+package edu.eci.cvds.patterns.shapes;
 
 import java.awt.*;
 

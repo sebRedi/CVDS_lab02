@@ -1,4 +1,6 @@
-package edu.eci.cvds.patterns.archetype.shapes;
+package edu.eci.cvds.patterns.shapes;
+
+import edu.eci.cvds.patterns.shapes.RegularShapeType;
 
 public class ShapeMain
 {

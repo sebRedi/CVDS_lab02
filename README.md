@@ -140,6 +140,36 @@ Para ejecutar desde línea de comandos un proyecto maven, abrimos una pestaña d
 ```bash
 mvn exec:java
 ```
+Previo a esto para realizar la ejecucion del codigo debemos modificar el archivo pom.xml, agregando un bloque de codigo que nos permite ejecutar la ruta de ejecucion.
+```
+<project>
+  ...
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.5.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>com.example.Main</mainClass>
+          <arguments>
+            <argument>argument1</argument>
+          </systemProperties>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+   ...
+</project>
+```
+
 Y podremos ver el resultado:
 ![img.png](src/IMG/mvnExec.png)
 
@@ -163,3 +193,13 @@ mvn exec:java -Dexec.args="Pepito Perez del Río"
 
 
 ## Hacer el esqueleto de la aplicación
+
+Para del diseño del esqueleto se usara el patron de diseño de fabrica, par esto usaremos los codigos proporcionados para en el laboratorio, lo que consiste en la creacion de una interfaz para
+para la creacion de objetos de una superclase, pero permite que las superclases alteren el tipo de obhjetos que se crean. El objetivo principal de este patron de disñeo es facilitar la 
+extensibilidad y el mantenimiento.
+Algunas de las ventajas del patron de factory son:
+        -Permite agreegar nuevas clases de productos sin modificar codigo existente
+        -Facilita las pruebas unitarias dado que plantea implementaciones robustas
+        -Util en framworks donde se necesita fleibililidad.
+
+
