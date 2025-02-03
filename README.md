@@ -149,6 +149,7 @@ mvn exec:java -Dexec.args="Pepito"
 
 Ahora, para poder ejecutarlo con múltiples parámetros volveremos a modificar la clase de la forma:
 ![img.png](src/IMG/appJava2.png)
+
 Y lo pondremos a prueba:
 ```bash
 mvn exec:java -Dexec.args="Pepito Perez del Río"
