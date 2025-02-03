@@ -199,8 +199,8 @@ para la creacion de objetos de una superclase, pero permite que las superclases 
 extensibilidad y el mantenimiento.
 Algunas de las ventajas del patron de factory son:
 
-        - Permite agreegar nuevas clases de productos sin modificar codigo existente
-        - Facilita las pruebas unitarias dado que plantea implementaciones robustas
-        - Util en framworks donde se necesita fleibililidad.
+1. Permite agreegar nuevas clases de productos sin modificar codigo existente
+2. Facilita las pruebas unitarias dado que plantea implementaciones robustas
+3. Util en framworks donde se necesita fleibililidad.
 
 
