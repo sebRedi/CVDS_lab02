@@ -204,3 +204,29 @@ Algunas de las ventajas del patron de factory son:
 3. Util en framworks donde se necesita fleibililidad.
 
 
+Decidimos utilizar _Simple Factory_ debido a su simplicidad y a lo que se necesita hacer en este laboratorio. Para ello, creamos las clases:
+- ShapeFactory:
+
+![img.png](src/IMG/shapeFactory.png)
+- ShapeFactoryMethod:
+
+![img.png](src/IMG/shapeFactoryMethod.png)
+- Shape:
+
+![img.png](src/IMG/shape.png)
+
+Cambiaremos también la mainClass en el archivo _pom.xml_:
+![img.png](src/IMG/finalPom.png)
+
+Y, por último, construimos y ejecutamos de la forma:
+```bash
+mvn clean package
+mvn exec:java -Dexec.args="nombreFigura"
+```
+
+A continuación, adjuntamos capturas de las cinco posibles ejecuciones:
+![img.png](src/IMG/Triangle.png)
+![img.png](src/IMG/Hexagon.png)
+![img.png](src/IMG/Pentagon.png)
+![img.png](src/IMG/Quadrilateral.png)
+![img.png](src/IMG/Strange.png)

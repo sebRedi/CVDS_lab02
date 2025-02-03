@@ -1,5 +1,10 @@
-<<<<<<< HEAD
-C:\Users\santi\OneDrive\Documentos\Universidad\CVDS\cvda-lab2\CVDS_lab02\src\main\java\edu\eci\cvds\patterns\archetype\App.java
-=======
-C:\Users\julian.cardenas-c\Documents\Lab 2\CVDS_lab02\Patterns\src\main\java\edu\eci\cvds\patterns\archetype\App.java
->>>>>>> d9bcd2ccb967ef47fa0dc48b62a7cc0150cfe92d
+C:\Users\sebastian.galvis-b\Downloads\Lab2\CVDS_lab02\src\main\java\edu\eci\cvds\patterns\archetype\App.java
+C:\Users\sebastian.galvis-b\Downloads\Lab2\CVDS_lab02\src\main\java\edu\eci\cvds\patterns\shapes\concrete\Pentagon.java
+C:\Users\sebastian.galvis-b\Downloads\Lab2\CVDS_lab02\src\main\java\edu\eci\cvds\patterns\shapes\ShapeFactory.java
+C:\Users\sebastian.galvis-b\Downloads\Lab2\CVDS_lab02\src\main\java\edu\eci\cvds\patterns\shapes\ShapeFactoryMethod.java
+C:\Users\sebastian.galvis-b\Downloads\Lab2\CVDS_lab02\src\main\java\edu\eci\cvds\patterns\shapes\ShapeMain.java
+C:\Users\sebastian.galvis-b\Downloads\Lab2\CVDS_lab02\src\main\java\edu\eci\cvds\patterns\shapes\concrete\Hexagon.java
+C:\Users\sebastian.galvis-b\Downloads\Lab2\CVDS_lab02\src\main\java\edu\eci\cvds\patterns\shapes\concrete\Triangle.java
+C:\Users\sebastian.galvis-b\Downloads\Lab2\CVDS_lab02\src\main\java\edu\eci\cvds\patterns\shapes\Shape.java
+C:\Users\sebastian.galvis-b\Downloads\Lab2\CVDS_lab02\src\main\java\edu\eci\cvds\patterns\shapes\RegularShapeType.java
+C:\Users\sebastian.galvis-b\Downloads\Lab2\CVDS_lab02\src\main\java\edu\eci\cvds\patterns\shapes\concrete\Quadrilateral.java
