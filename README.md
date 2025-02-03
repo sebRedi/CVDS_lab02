@@ -224,9 +224,10 @@ mvn clean package
 mvn exec:java -Dexec.args="nombreFigura"
 ```
 
-A continuación, adjuntamos capturas de las cinco posibles ejecuciones:
+A continuación, adjuntamos capturas de las seis posibles ejecuciones:
 ![img.png](src/IMG/Triangle.png)
 ![img.png](src/IMG/Hexagon.png)
 ![img.png](src/IMG/Pentagon.png)
 ![img.png](src/IMG/Quadrilateral.png)
 ![img.png](src/IMG/Strange.png)
+![img.png](src/IMG/noType.png)
