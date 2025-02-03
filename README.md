@@ -198,8 +198,9 @@ Para del diseño del esqueleto se usara el patron de diseño de fabrica, par est
 para la creacion de objetos de una superclase, pero permite que las superclases alteren el tipo de obhjetos que se crean. El objetivo principal de este patron de disñeo es facilitar la 
 extensibilidad y el mantenimiento.
 Algunas de las ventajas del patron de factory son:
-        -Permite agreegar nuevas clases de productos sin modificar codigo existente
-        -Facilita las pruebas unitarias dado que plantea implementaciones robustas
-        -Util en framworks donde se necesita fleibililidad.
+
+        - Permite agreegar nuevas clases de productos sin modificar codigo existente
+        - Facilita las pruebas unitarias dado que plantea implementaciones robustas
+        - Util en framworks donde se necesita fleibililidad.
 
 
