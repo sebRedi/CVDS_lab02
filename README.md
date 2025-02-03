@@ -106,6 +106,11 @@ Este codigo puede entenderse de la siguiente manera:
   - -DinteractiveMode=false: Se esta indicando a Maven que utilice paquetes predeterminados.
 
 
+## Ajustar algunas configuraciones en el proyecto
+Cambiar la version del compilador de Java a la versión 8 no ofreció ningún problema.
+![img.png](src/IMG/properties.png)
+
+
 ## Compilar y ejecutar
 
 ### - ¿Cuál es el objetivo del parámetro "package"?
