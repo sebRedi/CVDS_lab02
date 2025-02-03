@@ -115,6 +115,7 @@ El propósito principal de la fase package es:
 - Crear el artefacto del proyecto, como un archivo .jar, .war, .ear, dependiendo del tipo de proyecto.
 - Este artefacto es el archivo que generalmente se distribuye o se sube a un repositorio para su uso en otros proyectos.
 - En esta fase, Maven empaqueta el código compilado, los recursos y otros archivos necesarios en el archivo final que se usará para ejecutar la aplicación o para compartirla con otros desarrolladores.
+
 ### - ¿Qué otros parámetros se podrían enviar al comando mvn?
 Al comando mvn pueden agregarse los parámetros:
 - Clean: Limpia los archivos generados por construcciones anteriores, eliminando el directorio target/ donde se almacenan los artefactos generados. Esto se hace para asegurar que la construcción sea completamente nueva.
@@ -129,3 +130,30 @@ Al comando mvn pueden agregarse los parámetros:
 - Site: Genera la documentación del proyecto, como el informe de las pruebas, dependencias, cobertura de código, etc., y la guarda en el directorio.
 - -DskipTests: Salta la ejecución de las pruebas durante la construcción, pero aún así empaqueta los artefactos. Es útil cuando solo se desea compilar y empaquetar sin ejecutar las pruebas unitarias.
 
+### Ejecución:
+Para ejecutar desde línea de comandos un proyecto maven, abrimos una pestaña del command prompt y escribiremos:
+```bash
+mvn exec:java
+```
+Y podremos ver el resultado:
+![img.png](src/IMG/mvnExec.png)
+
+Ahora modificamos la clase para que al recibir un parámetro, lo imprima dentro del saludo:
+![img.png](src/IMG/appJava1.png)
+
+Para poder ejecutarlo, agregamos -Dexec.args al final de la ejecución de la forma:
+```bash
+mvn exec:java -Dexec.args="Pepito"
+```
+![img.png](src/IMG/dexecArgs.png)
+
+Ahora, para poder ejecutarlo con múltiples parámetros volveremos a modificar la clase de la forma:
+![img.png](src/IMG/appJava2.png)
+Y lo pondremos a prueba:
+```bash
+mvn exec:java -Dexec.args="Pepito Perez del Río"
+```
+![img.png](src/IMG/dexecArgs2.png)
+
+
+## Hacer el esqueleto de la aplicación
